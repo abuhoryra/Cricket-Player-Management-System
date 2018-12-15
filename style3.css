@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img1.jpg);
+    background-size: cover;
+}
+.img-responsive{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+.form-group{
+    text-align: left;
+}
+.jumbotron {
+            background-color: white;
+            color: #e69500;
+            
+            min-height: 1800px;
+            margin-top: 60px;
+        }
+
+        .p1 {
+            text-align: center;
+            font-size: 30px !important;
+        }
+
+        label {
+            color: #009900;
+            font-size: 16px;
+            margin-left: 15px;
+        }
+
+        
+
+        .form-control {
+            width: 303px !important;
+            margin-left: 10px;
+            border: none;
+            border-bottom: solid 3px #009999;;
+            border-radius: 0px;
+            color: blue;
+            box-shadow: none;
+            font-size: 15px;
+            color: #009900;
+            margin-bottom: 15px;
+
+        }
+
+        .form-control:focus,
+        valid {
+            
+            box-shadow: none;
+
+        }
+
+        
+.divag{
+    
+    width: 500px;
+    margin: 0 auto;
+}
+      
+
+.inp{
+    width: 120px;
+    border: none;
+    height: 25px;
+    font-size: 14px;
+    
+    
+}
+
+th{
+    text-align: center;
+    color: #0000ff;
+}
+
+.bom{
+    text-align: center;
+    margin-top: 5%;
+}
+.btn{
+   border: none;
+   border-radius: 0;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1080px){
+    .img-responsive{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+    
+
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+      .img-responsive{
+display: none;
+}
+}
